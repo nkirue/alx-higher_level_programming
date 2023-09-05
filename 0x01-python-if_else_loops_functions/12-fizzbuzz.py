@@ -5,7 +5,7 @@
 def fizzbuzz():
     """the numbers from 1 to 100 separated by a space.
 
-    For multiples of three print Fizz instead of the 
+    For multiples of three print Fizz instead of
     number and for multiples of five print Buzz.
     For multiples of both 3 and 5 print FizzBuzz
     """
