@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 if __name__ == "__main__":
     import sys
     cl_arg = len(sys.argv) - 1
