@@ -5,5 +5,5 @@ if __name__ == "__main__":
 
     total = 0
     for i in range(cl_arg):
-        total =  total + int(sys.argv[i + 1])
+        total = total + int(sys.argv[i + 1])
     print("{}".format(total))
