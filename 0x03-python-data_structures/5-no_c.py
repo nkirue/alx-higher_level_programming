@@ -2,5 +2,5 @@
 
 
 def no_c(my_string):
-    co = [i for i in my_string if i != 'c' and x != 'C']
+    co = [i for i in my_string if i != 'c' and i != 'C']
     return ("".join(co))
