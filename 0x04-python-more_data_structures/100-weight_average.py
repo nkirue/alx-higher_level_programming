@@ -7,7 +7,7 @@ def weight_average(my_list=[]):
     don = 0
 
     for x in my_list:
-        nom += t[0] * t[1]
-        don += t[1]
+        nom += x[0] * x[1]
+        don += x[1]
 
     return (nom / don)
