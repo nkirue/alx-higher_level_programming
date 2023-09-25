@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
-# iterate throu.  my_list and print 
-# elements until reaching x or the end of the my_list
     cnt = 0
     for i in range(x):
         try:
