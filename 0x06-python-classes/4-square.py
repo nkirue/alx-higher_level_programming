@@ -11,7 +11,7 @@ class Square:
 
     @property
     def size(self):
-        """Get/set methods defined using the @property and @size.setter decor"""
+        """Get/set methods defined with the @property and @size.setter decor"""
         return (self.__size)
 
     @size.setter
