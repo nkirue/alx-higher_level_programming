@@ -58,9 +58,10 @@ class Rectangle:
 
         rectan = []
         for i in range(self.__height):
-            [rectan.append(str(self.print_symbol)) for j in range(self.__width)]
+            [rectan.append(str(self.print_symbol)) 
+                    for j in range(self.__width)]
             if i != self.__height - 1:
-                rectan.append("\n")
+                rectan.append("\n")`
         return ("".join(rectan))
 
     def __repr__(self):
