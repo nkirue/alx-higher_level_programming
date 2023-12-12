@@ -6,4 +6,3 @@ if (process.argv.length <= 3) {
   const sec = ar.sort(function (x, y) { return y - x; })[1];
   console.log(sec);
 }
-
