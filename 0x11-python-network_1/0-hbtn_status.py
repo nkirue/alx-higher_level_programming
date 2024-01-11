@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 """ Fetches the status from the given URL using the urllib package """
 import urllib.request
 
